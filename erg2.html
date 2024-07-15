@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Άσκηση 2</title>
+</head>
+<body>
+
+    <form>
+        <div>
+            <h1>Φόρμα Πληρωμής</h1>
+        </div>
+
+        
+            <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr></p>
+        
+
+        <div>
+            <h3>Προσωπικά Στοιχεία</h3>
+        </div>
+
+
+        <fieldset>
+            <legend>Title</legend>
+                <div>
+                        <ul>
+                            <li>Mr.</li>
+                            <li>Mrs.</li>
+                            <li>Dr.</li>
+                        </ul>
+                </div>
+        </fieldset>
+
+        <div>
+            <label for="όνομα"> Name <abbr title="Required field"> * </abbr>
+            </label>
+                <input type="text" name="όνομα" id="όνομα"> 
+        </div>
+
+        <div>
+            <label for="email"> E-mail <abbr title="Required field"> * </abbr>
+                <input type="email" name="email" id="email"> 
+            </label>
+        </div>
+
+        <div>
+            <label for="pass"> Password <abbr title="Required field"> * </abbr>
+                <input type="password" name="pass" id="pass"> 
+            </label>
+        </div>
+
+        <div>
+            <h2>Πληροφορίες Πληρωμής</h2>
+        </div>
+
+        <div>
+            <label fo="card"> Card type </label>
+            <select name="card" id="card">
+                <option value="" selected> visa</option>
+                <option value=""> </option>
+                <option value=""> </option>
+            </select>
+        </div>
+
+        
+        <div>
+            <label for="number"> Card number <abbr title="Required field"> * </abbr>
+                <input type="text" name="number" id="number"> 
+            </label>
+        </div>
+
+        
+        <div>
+            <label for="date"> Expiration date <abbr title="Required field"> * </abbr>
+                <input type="date" name="date" id="date"> 
+            </label>
+        </div>
+
+        <div>
+            <input type="submit" value="Προχωρήστε στην πληρωμή">
+        </div>
+
+    </form>
+    
+    
+</body>
+</html>

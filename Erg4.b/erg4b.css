@@ -1,0 +1,22 @@
+.main {
+    clear: both;
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgb(143, 143, 200) ;
+}
+
+.main-item {
+    float: left;
+    height: 100px;
+    width: 30%;
+    margin: 10px 1.5% ;
+    border: 1px solid black;
+    background-color: rgb(250, 250, 140);
+}
+
+img {
+    float: left;
+    height: 100px;
+    width: 100%;
+    margin:auto;
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(111, 155, 238);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    border: 2px ;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Sign-up-wrapper{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color:gray
+}
+
+.Sign{
+    background-color: rgb(111, 155, 238);
+    color: white;
+    padding: 20px 22px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 77%;
+    opacity: 0.9;
+    border: 2px ;
+    border-radius: 8px;
+}
+
+.email, .password    {
+    width: 70%;
+    padding: 20px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #faf4f4;
+    border: 2px ;
+    border-radius: 8px;
+  
+}
+
+.a1 {
+    font-size: 20px;
+    width: 70%;
+    padding: 70px;
+    color: grey;
+}
+
+.a2 {
+    bottom: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/payment.css">
+    <title>Payment</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <h>Φόρμα Πληρωμής</h>
+                <p>Τα υποχρεωτικά πεδία ακολουθούνται από <strong> <abbr title="reguired">*</abbr></strong>
+                </p>
+            </div>
+            <div>
+                <h2 class="personal">Προσωπικά Στοιχεία</h2>
+            </div>
+            <div class="form-group">
+                <fieldset class="ttle">
+                    <legend>Τίτλος</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="mr" name="title" value="Mr">
+                            <label for="mr">
+                                Κύριος
+                            </label>
+                        </li>
+                       <li>
+                         <label for="mrs">
+                            <input type="radio" id="mrs"name="title" value="Mrs">
+                            Mrs.
+                         </label>
+                        </li>
+                        <li>
+                            <label for="dr">
+                            <input type="radio" id="dr" name="title" value="Dr">
+                            Dr.
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div class="form-group">
+                <label for="name">
+                    <span>Name:</span>
+                    <abbr aria-label="required" title="reguired"><strong>*</strong></abbr>
+                </label>
+                <input type="text" id="name" name="username">
+            </div>
+            <div class="form-group">
+                <label for="mail">
+                    <span>E-mail:</span>
+                    <abbr aria-label="required" title="reguired"><strong>*</strong></abbr>
+                </label>
+                <input type="email" id="mail" name="usermail">
+            </div>
+            <div class="form-group">
+                <label for="pwd">
+                    <span>Password:</span>
+                    <abbr aria-label="required" title="reguired"><strong>*</strong></abbr>
+                </label>
+                <input type="password" id="pwd" name="upassword">
+            </div>
+
+            <div class="form-group" aria-labelledby="payment-info">
+                <h2 id="payment-info">Πληροφορίες Πληρωμής</h2> 
+                <div class="form-group">
+                    <label for="card">
+                        <span>Card Type</span>
+                    </label>
+                    <select id="card" name="usercard">
+                        <option value="visa">Visa</option>
+                        <option value="visa">Mastercard</option>
+                        <option value="visa">American Express</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="number">
+                        <span>Card number:</span>
+                        <strong><abbr title="reguired">*</abbr></strong>
+                    </label>
+                    <input type="tel" id="number" name="cardnumber">
+                </div>
+                <div class="form-group">
+                    <label for="expiration">
+                        <span>Expiration date:</span><strong><abbr title="reguired">*</abbr></strong>
+                    </label>
+                    <input type="text" id="expiration" required="true"
+                    placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])/([0-9]{2})$">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit">Προχωρήστε στη πληρωμή</button>
+                </div>
+        </form>
+    </div>
+    
+</body>
+</html>
